@@ -28,7 +28,7 @@
 #include "expr.h"
 
 #define DEV_INPUT "/dev/input"
-#define DEF_CFG "/etc/evev"
+#define DEF_CFG PREFIX_ETC "/evev"
 
 extern char **environ;
 
