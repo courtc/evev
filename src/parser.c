@@ -220,7 +220,7 @@ static int psr_expr_ctab_lookup(const char **pdata, struct expr_match *m)
 			m->cmp = EXPR_EQ;
 		}
 
-		m->value = strtoul(data, &ep, 0);
+		m->value = strtol(data, &ep, 0);
 		data = ep;
 		psr_whitespace(&data);
 	} else {
